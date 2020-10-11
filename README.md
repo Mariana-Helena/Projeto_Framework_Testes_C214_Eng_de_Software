@@ -1,17 +1,26 @@
 # Projeto_Framework_Testes_C114_Eng_de_Software
 
-O projeto visa apresentar a utilização do framework Unittest, o qual é uma ferramenta para teste de unidade em Python.
+O projeto visa apresentar a utilização do framework Unittest, o qual é uma ferramenta para teste de unidade em Python, para se testar uma Classe dessa linguagem de programação.
 
 ### 📋 Pré-requisitos
 
-- Não possui.
+- Ter instalada alguma versão do Python para execução do projeto. Essa execução poderá ser feita utilizando tanto o terminal quanto alguma IDE.
 
 ## 🚀 Executando os testes
 
 - Basta executar o arquivo test.py, o qual contém a classe de teste e alguns métodos já implementados.
-- Para execução no terminal use o comando: python test.py*
+- Para execução no terminal: </br>
+1°) Garanta que o terminal esteja aberto na pasta do projeto; </br>
+2°) Execute o comando: *
 
-*É necessário estar na pasta Test do projeto.
+```
+python -m unittest test/test.py
+```
+
+*Se a versão do Python que estiver instalada em sua máquina for a partir do Python 3, executar o comando: 
+```
+python3 -m unittest test/test.py
+```
 
 ### ⚙️ Testes
 
